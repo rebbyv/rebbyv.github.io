@@ -2,18 +2,41 @@
 <html>
   <head lang="en">
     <meta charset="utf-8">
-    <title>rebbyv | software engineer</title>
+    <title>Rebekah Vincent Portfolio</title>
+    <link rel="stylesheet" href='app.css'>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="about">
-      <span>Rebekah Vincent</span>
-      <p>Software Engineer</p>
-      <img src="" alt="headshot"/>
-      <div>
-        <span>Finde Me</span>
-        <p><a href="mailto:rebsvincent@gmail.com">rebsvincent@gmail.com</a></p>
-        <p><a href="https://github.com/rebbyv">github.com</a></p>
+    <nav>
+      <h1>Rebekah Vincent</h1>
+    </nav>
+    <div id="main">
+      <div id="about">
+        <h2>Software Engineer</h2>
+        <img src="headshot.jpg" alt="headshot" id="headshot"/>
+        <div>
+          <h2>Find Me</h2>
+          <p class="contact"><a href="mailto:rebsvincent@gmail.com">rebsvincent@gmail.com</a></p>
+          <p class="contact"><a href="https://github.com/rebbyv" target="_blank">github</a></p>
+        </div>
+      </div>
+      <div id="portfolio">
+        <h2>Apps</h2>
+        <div id="apps">
+          <a href="http://ec2-18-219-29-122.us-east-2.compute.amazonaws.com:2000/" target="_blank">
+            <span class="app">
+              <img src="weightlifting_tracker.png" alt="gym-tracker app" class="img">
+              <div class="details"> 
+                <h3>Weightlift Tracker</h3>
+                <p>An app for storing the weights you lift on any movement. 
+                  Provides the history  of past lifts and the percentages of 
+                  your max lift for planning future workouts.</p>
+                <p>Built using express, mysql, Sequelize, and React. Deployed with AWS S3 and AWS EC-2</p>
+              </div>
+            </span>
+          </a>
+
+        </div>
       </div>
     </div>
   </body>
