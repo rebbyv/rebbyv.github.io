@@ -14,7 +14,7 @@ h1 {
   color: #D8315B;
   font-size: 2em;
   margin: auto;
-  width: 75%;
+  width: 90%;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -29,12 +29,12 @@ h2 {
   display: flex;
   flex-direction: row;
   margin: auto;
-  width: 75%;
+  width: 90%;
 }
 
 #about {
   margin: 20px 0px;
-  width: 30%;
+  width: 20%;
   border-right: 3px solid #D83168
 }
 
@@ -44,10 +44,9 @@ h2 {
 
 #portfolio {
   margin: 20px;
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 a {
@@ -60,6 +59,7 @@ a {
 
 #apps {
   display: flex;
+  flex-flow: wrap;
 }
 
 .app {
