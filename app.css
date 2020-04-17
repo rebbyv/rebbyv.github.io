@@ -49,6 +49,10 @@ a {
   font-size: larger;
 }
 
+#apps {
+  display: flex;
+}
+
 .app {
   margin: 0px 10px 20px 0px;
   width: 400px;
